@@ -2,12 +2,19 @@
 
 Este projeto aplica inteligencia de dados e Machine Learning seguindo a metodologia rigorosa do CRISP-DM para resolver um desafio real de negocios no setor de financiamento de veiculos no Brasil: a falta de personalizacao nas campanhas de marketing, que gerava dispersao de margem e esforco de vendas ineficiente.
 
-O objetivo principal foi identificar perfis de consumo e comportamento de credito para desenhar acoes comerciais de alta conversao (Cross-Selling e Up-Selling), com foco no retorno financeiro (ROI) para a companhia.
+O objetivo principal foi identificar perfis de consumo e comportamento de credito para desenhos de acoes comerciais de alta conversao (Cross-Selling e Up-Selling), com foco no retorno financeiro (ROI) para a companhia.
+
+---
+
+### 📁 Materiais do Projeto & Links Rapidos
+
+- 📜 [Acessar Codigo Fonte e Pipeline em Python (Notebook Jupyter)](Teste.ipynb)
+- 📦 [Acessar / Baixar Apresentacao Executiva Completa em PDF](Apresentacao_Executiva_ROI_Clusterizacao_KMeans.pdf)
 
 ---
 
 ### 📌 Sumario Executivo e Guia de Navegacao Rapida
-- **1. Entendimento do Negocio** — O desafio comercial: como usar IA para acabar com panfletagem digital e focar em ofertas de alta conversao.
+- **1. Entendimento do Negocio** — O desafio comercial: como usar IA para acabar com a dispersao de margem e focar em ofertas de alta conversao.
 - **2. Analise Exploratoria dos Dados** — Raio-X de 10k registros revelando anomalias de cadastro, colisoes de strings e os primeiros padroes ocultos.
 - **3. Preparacao e Limpeza dos Dados** — Engenharia de dados em acao: expurgo de ruidos, imputacao por mediana e codificacao binaria das variaveis.
 - **4. Modelagem Estatistica com Machine Learning** — A matematica decide: validando a divisao ideal da base atraves do Metodo do Cotovelo e Silhouette Score.
@@ -32,7 +39,7 @@ Simulamos a aplicacao do modelo em uma campanha de venda de Seguro Auto com um c
 
 ## 📋 Dicionario de Dados (Metadados)
 
-A base de dados conta com 10.000 registros de clientes ativos estruturados em 10 colunas:
+A base de dados conta com 10.000 registros de clientes ativos estruturados in 10 colunas:
 
 - **id_cliente:** Identificador unico e exclusivo do cliente.
 - **idade:** Idade do cliente em anos completos.
@@ -68,3 +75,4 @@ A base de dados conta com 10.000 registros de clientes ativos estruturados em 10
 5. **Cluster 4: Alta Renda / Premium (Os Clientes de Maior Valor)**
    - Perfil: Publico mais sênior, com altissimo score (media de 876) e contratos expressivos (media de 135.032,60 Reais).
    - Estrategia: Canal de atendimento exclusivo e cross-selling de produtos financeiros premium de alta margem.
+
