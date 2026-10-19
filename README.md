@@ -1,15 +1,15 @@
 # Clusterizacao de Clientes para Direcionamento de Vendas no Financiamento Automotivo
 
-Este projeto aplica inteligencia de dados e Machine Learning seguindo a metodologia rigorosa do CRISP-DM para resolver um desafio real de negocios no setor de financiamento de veiculos no Brasil: a falta de personalizacao nas campanhas de marketing, que gerava dispersao de margem e esforco de vendas ineficiente.
+Este projeto aplica inteligencia de dados e Machine Learning seguindo a metodologia rigorosa do CRISP-DM para resolver um desafio real de negocios no setor de financiamento de veiculos no Brasil: a falta de personalizacao nas campanhas de marketing, que gerava dispersão de margem e esforco de vendas ineficiente.
 
-O objetivo principal foi identificar perfis de consumo e comportamento de credito para desenhos de acoes comerciais de alta conversao (Cross-Selling e Up-Selling), com foco no retorno financeiro (ROI) para a companhia.
+O objetivo principal foi identificar perfis de consumo e comportamento de crédito para desenhar ações comerciais de alta conversão (Cross-Selling e Up-Selling), com foco no retorno financeiro (ROI) para a companhia.
 
 ---
 
 ### 📁 Materiais do Projeto & Links Rapidos
 
-- 📜 [Acessar Codigo Fonte e Pipeline em Python (Notebook Jupyter)](Teste.ipynb)
-- 📦 [Acessar / Baixar Apresentacao Executiva Completa em PDF](Apresentacao_Executiva_ROI_Clusterizacao_KMeans.pdf)
+- 📜 [Acessar Codigo Fonte e Pipeline em Python (Notebook Jupyter)](https://github.com/Faustoalemos/Projeto_clusterizacao_clientes_banco/blob/f36b15b9f96aeb1eb9018d41aa92c2b4c5020a20/Tratamento%2C%20analise%20e%20clusteriza%C3%A7%C3%A3o%20de%20clientes.ipynb)
+- 📦 [Acessar / Baixar Apresentacao Executiva Completa em PDF](https://github.com/Faustoalemos/Projeto_clusterizacao_clientes_banco/blob/f36b15b9f96aeb1eb9018d41aa92c2b4c5020a20/Apresentacao_executiva_ROI_clusterizacao_KMeans.pdf)
 
 ---
 
@@ -39,7 +39,7 @@ Simulamos a aplicacao do modelo em uma campanha de venda de Seguro Auto com um c
 
 ## 📋 Dicionario de Dados (Metadados)
 
-A base de dados conta com 10.000 registros de clientes ativos estruturados in 10 colunas:
+A base de dados conta com 10.000 registros de clientes ativos estruturados em 10 colunas:
 
 - **id_cliente:** Identificador unico e exclusivo do cliente.
 - **idade:** Idade do cliente em anos completos.
@@ -65,7 +65,7 @@ A base de dados conta com 10.000 registros de clientes ativos estruturados in 10
    - Estrategia: Campanha automatizada de Seguro e Tag no momento do fechamento (Público-alvo do nosso Business Case de sucesso).
 
 3. **Cluster 2: Usuarios de Conveniencia (Tags Urbanas)**
-   - Perfil: Publico mais jovem da base, com score em construcao e tiquete baixo (998,99 Reais).
+   - Perfil: Publico mais jovem da base, com score in construcao e tiquete baixo (998,99 Reais).
    - Estrategia: Direcionar exclusivamente os cupons de incentivo para atrair o primeiro financiamento.
 
 4. **Cluster 3: Tomadores de Credito (Garantia de Veiculo)**
@@ -75,4 +75,5 @@ A base de dados conta com 10.000 registros de clientes ativos estruturados in 10
 5. **Cluster 4: Alta Renda / Premium (Os Clientes de Maior Valor)**
    - Perfil: Publico mais sênior, com altissimo score (media de 876) e contratos expressivos (media de 135.032,60 Reais).
    - Estrategia: Canal de atendimento exclusivo e cross-selling de produtos financeiros premium de alta margem.
+
 
